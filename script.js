@@ -51,3 +51,12 @@ button.addEventListener('click', () => {
     createGrid();
 });
 
+const clear = document.querySelector('.clear');
+
+clear.addEventListener('click', () => {
+    const divs = document.querySelectorAll('.boxes');
+    divs.forEach(divs => {
+        divs.style.backgroundColor = "white";
+    });
+});
+
