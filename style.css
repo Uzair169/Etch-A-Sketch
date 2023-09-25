@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: silver;
+}
+.main-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 6rem;
+}
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid;
+    border-color: white;
+    box-shadow: 0 0 2px grey;
+    width: 500px;
+    height: 500px;
+}
+.button-class {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#change {
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#change:hover {
+    background-color: lightblue;
+    color: white;
+}
